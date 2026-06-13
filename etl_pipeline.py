@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 
 # --- CONFIGURATION ---
 # TODO: Replace 'YOUR_PASSWORD' with the actual password you set during PostgreSQL installation
-DB_PASSWORD = '100624'
+DB_PASSWORD = 'YOUR PASSWORD'
 DB_USER = 'postgres'
 DB_HOST = 'localhost'
 DB_PORT = '5432'
