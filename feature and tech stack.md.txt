@@ -1,0 +1,21 @@
+🚀 Key Features
+Data Lake Simulation: Handled an enterprise retail dataset containing 9,994 granular transactional records.
+
+Programmatic ETL Ingestion: Developed a robust Python automation script that programmatically handles relational schemas, column sanitization, and data type mapping.
+
+Data Lineage Integration: Appended systematic metadata injection (etl_inserted_at timestamps) to trace processing lineage.
+
+Relational Data Warehousing: Modeled a high-performance database inside local PostgreSQL with programmatic schema rebuilding (if_exists='replace').
+
+Executive BI Dashboard: Wired direct database-to-BI connections to build an interactive dashboard tracking key business health metrics.
+
+🧰 Tech Stack
+Languages: Python
+
+Libraries: Pandas, SQLAlchemy, Psycopg2
+
+Database Engine: PostgreSQL
+
+Database GUI Client: pgAdmin 4
+
+Visualization Suite: Power BI Desktop

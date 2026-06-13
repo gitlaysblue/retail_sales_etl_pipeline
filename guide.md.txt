@@ -1,0 +1,44 @@
+How to Setup and Run Locally
+Prerequisites
+Ensure you have Python 3.x, PostgreSQL, and Power BI Desktop installed.
+
+1. Database Configuration
+Open pgAdmin 4 and connect to your local server instance.
+
+Create a new database named retail_warehouse.
+
+2. Pipeline Execution
+Clone this repository to your local directory.
+
+Install dependencies via pip:
+
+Bash
+pip install pandas sqlalchemy psycopg2-binary
+Open etl_pipeline.py and input your local PostgreSQL server password in the configuration section.
+
+Run the pipeline:
+
+Bash
+python etl_pipeline.py
+
+3. Business Intelligence Connection
+Launch Power BI Desktop and open your dashboard file.
+
+Connect to the local PostgreSQL database using:
+
+Server: localhost
+
+Database: retail_warehouse
+
+Connectivity Mode: Import
+
+Hit Refresh to dynamically stream data from your analytical warehouse to your charts.
+
+📊 Dashboard Insights Built
+Executive Snapshot Header: KPI cards calculating Total Revenue, Total Profit, and Total Quantities Sold instantly.
+
+Product Performance Profile: Side-by-side clustered column comparisons analyzing Revenue vs. Profitability margins across Categories.
+
+Geographic Breakdown: A high-level donut allocation analyzing Regional market performance.
+
+Logistics Fulfillment Matrix: Horizontal analytical tracking of volume distributions across individual Shipping Modes.
